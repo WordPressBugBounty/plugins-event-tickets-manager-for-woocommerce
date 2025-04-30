@@ -1,7 +1,7 @@
-=== Event Tickets Manager for WooCommerce ===
+=== Event Tickets Manager for WooCommerce - Plan Your Events, Sell Tickets On WooCommerce ===
 Contributors: wpswings
 Donate link: https://wpswings.com/
-Tags: event registration, calendar, RSVP, event location, tickets
+Tags: event registration, calendar, RSVP, sell tickets, tickets
 Requires at least: 6.1
 Tested up to: 6.7.2
 WC requires at least: 6.1
@@ -15,19 +15,22 @@ Plan your events with WordPress Event plugin. Easily create/manage events, event
 
 == Description ==
 
-**CREATE AND MANAGE YOUR EVENTS WITH THIS ALL-IN-ONE SOLUTION WORDPRESS EVENT PLUGIN. THIS EVENT PLUGIN LETS YOU CREATE A PERFECT EVENT CENTRIC WEBSITE. MANAGE EVENTS EASILY AND DISPLAY YOUR EVENTS ON MULTIPLE LOCATIONS, SET RECURRING EVENTS ACCORDINGLY AND ADD BARCODE TO YOUR EVENT'S TICKET**
+Quickly create and manage your event website with this free WordPress event plugin. You can create both real and virtual events as well as selling tickets on your WooCommerce stores. This WordPress tickets plugin is capable of easy event creation and its management, displaying your [event's live location](https://demo.wpswings.com/event-tickets-manager-for-woocommerce-pro/product/portrait-sketching-online-live-session/?utm_source=wpswings-giftcards-org&utm_medium=referral&utm_campaign=gift-cards-demo) over product page, letting you conveniently set the [recurring date and time](https://demo.wpswings.com/event-tickets-manager-for-woocommerce-pro/all-event-listing/?utm_source=wpswings-giftcards-org&utm_medium=referral&utm_campaign=gift-cards-demo) for any event, [easy check-in](https://demo.wpswings.com/event-tickets-manager-for-woocommerce-pro/shop/?utm_source=wpswings-giftcards-org&utm_medium=referral&utm_campaign=gift-cards-demo) process by using a QR Code and various other enticing features that will satisfy all your event management needs.
 
-The [**WordPress event Plugin**]((https://wpswings.com/product/event-tickets-manager-for-woocommerce-pro/?utm_source=events-org-page&utm_medium=referral&utm_campaign=events-pro)) is a complete solution for merchants who want to add event-based products to their WooCommerce store. Now you don’t have to pay commissions to your third-party service providers to manage event registration and ticket sales. 
+Go for the Premium [**WordPress event Plugin**]((https://wpswings.com/product/event-tickets-manager-for-woocommerce-pro/?utm_source=events-org-page&utm_medium=referral&utm_campaign=events-pro)) if you are seeking for the additional features like **event alerts**, **display your events on multiple location**, **recurring [daily, weekly and monthly] events**, **show organizer/attendees details**, **share events on facebook**, **track ticket status** etc.
 
-This plugin is one of the best WordPress Plugins for Events, merchants can manage the entire process from their WooCommerce store and be their own boss.
+This plugin is one of the best WordPress events plugin, merchants can manage their entire process from WooCommerce store and be their own boss.
 
+🧐**Want to explore more???** 
 
-[**WordPress Event Plugin Demo**](https://demo.wpswings.com/event-tickets-manager-for-woocommerce-pro/?utm_source=wpswings-events-pro&utm_medium=events-org-page&utm_campaign=frontend-demo) | [**WordPress Event Plugin Documentation**](https://docs.wpswings.com/event-tickets-manager-for-woocommerce/?utm_source=wpswings-events-doc&utm_medium=events-org-page&utm_campaign=events-doc) | [**Contact Us**](https://wpswings.com/contact-us/?utm_source=wpswings-event&utm_medium=event-org-page&utm_campaign=contact-us) 
+Visit our 👇️
+
+[**Documentation**](https://docs.wpswings.com/event-tickets-manager-for-woocommerce/?utm_source=wpswings-events-doc&utm_medium=events-org-page&utm_campaign=events-doc) | [**Plugin Demo**](https://demo.wpswings.com/event-tickets-manager-for-woocommerce-pro/?utm_source=wpswings-events-pro&utm_medium=events-org-page&utm_campaign=frontend-demo) | [**Contact Us**](https://wpswings.com/contact-us/?utm_source=wpswings-event&utm_medium=event-org-page&utm_campaign=contact-us) 
 
 [youtube https://youtu.be/xjKPLNhKF1A?si=Zfrkx7Ngyag-67Rn&rel=0]
 
 
-== SALIENT FEATURES OF THE  WORDPRESS EVENT PLUGIN: ==
+== WORDPRESS EVENT PLUGIN'S KEY FEATURES: ==
 
 **1) Event Sharing**: The admin can allow their customers to share the listed events on different platforms by sharing the link of the single event page, customers can share it with their friends and family.
 
@@ -99,12 +102,15 @@ This plugin is one of the best WordPress Plugins for Events, merchants can manag
 
 == WHAT MAKES PRO EVENTS CALENDAR STAND OUT? == 
 
-**1) Stay Updated Via Event Alerts:** Admins can keep their customers updated. Customers can notify them about upcoming events using the “Subscribe” button.
-**2) Display Multiple Locations:** Display multiple locations for a single event. There is no limit on the locations, you can list as many locations as you like.
-**3) Set Recurring Events:** Admins can set the recurring date for any event very conveniently; events can recur daily, weekly, or monthly.
-**4) QR Codes For Seamless Check-Ins:** The WooCommerce Event Tickets plugin allows customers an easy check-in process by using a QR Code. 
-**5) Fully Customizable PDF Tickets:** Offers fully customizable PDF tickets. This allows the users to create event tickets the way they want.
-**6) Multiple Layouts for Tickets PDFs:** Allows users to select from multiple layout options for ticket PDFs when creating and managing events. 
+**1) Zoom Integration:** Admin can host different events/sessions on Zoom’s platform.
+**2) WhatsApp Integration:** Allowing merchants to send their customers ticket details and event notifications via WhatsApp messages.
+**3) Google-Meet Integration:** Admin can allow customers and participants to attend online events through the G-Meet link.
+**4) Stay Updated Via Event Alerts:** Admins can keep their customers updated. Customers can notify them about upcoming events using the “Subscribe” button.
+**5) Display Multiple Locations:** Display multiple locations for a single event. There is no limit on the locations, you can list as many locations as you like.
+**6) Set Recurring Events:** Admins can set the recurring date for any event very conveniently; events can recur daily, weekly, or monthly.
+**7) QR Codes For Seamless Check-Ins:** The WooCommerce Event Tickets plugin allows customers an easy check-in process by using a QR Code. 
+**8) Fully Customizable PDF Tickets:** Offers fully customizable PDF tickets. This allows the users to create event tickets the way they want.
+**9) Multiple Layouts for Tickets PDFs:** Allows users to select from multiple layout options for ticket PDFs when creating and managing events. 
 
 == TAKE ADVANTAGE OF EXCLUSIVE FEATURES OF THE WORDPRESS EVENTS PLUGIN: ==
 
@@ -201,7 +207,7 @@ Please visit the WP Swings [**knowledge base**](https://support.wpswings.com/wor
 
 == Changelog ==
 
-= 1.4.3 – Released on 01 April 2025 =
+= 1.4.3 – Released on 28 March 2025 =
 * New: Added [STARTDATE] shortcode on email Reminder.
 * New: Templates customization ( hide/show -  Details ) 
 * New: DomPdf library updated to latest version 
@@ -366,7 +372,7 @@ Please visit the WP Swings [**knowledge base**](https://support.wpswings.com/wor
 
 == Upgrade Notice == 
 
-= 1.4.3 – Released on 01 April 2025 =
+= 1.4.3 – Released on 28 March 2025 =
 * New: Added [STARTDATE] shortcode on email Reminder.
 * New: Templates customization ( hide/show -  Details ) 
 * New: DomPdf library updated to latest version 
