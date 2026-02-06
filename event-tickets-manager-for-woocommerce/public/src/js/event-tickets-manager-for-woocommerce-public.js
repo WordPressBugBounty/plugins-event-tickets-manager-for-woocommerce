@@ -36,10 +36,16 @@
 	 		$("#wps_etmfw_edit_ticket_form").toggleClass("wps_etmfw_show_ticket_form");
 	 	});
 	 });
-	 jQuery( document ).ready( function($){
-	 	$( document ).on(
-	 		'click',
-	 		'#wps_etmfw_save_edit_ticket_info_btn',
+	jQuery( document ).ready( function($){
+		if ( $('.wps_etmfw_user_type_list').length ) {
+			var $form = $('.wps_etmfw_user_type_list').closest('form.cart');
+			$form.addClass('wps-etmfw-has-user-types');
+			$form.find('.quantity').not('.wps-etmfw-user-type-qty').hide();
+		}
+
+		$( document ).on(
+			'click',
+			'#wps_etmfw_save_edit_ticket_info_btn',
 	 		function(e){
 	 			var check_validation = false;
 
@@ -121,11 +127,45 @@
 	
 		});
 
-		window.wpsEtmfwCopyToClipboard = function(text) {
-			navigator.clipboard.writeText(text).then(function () {
-				alert('Copied to clipboard!');
-			});
-		};
+		jQuery(document).on('click', '.wps-etmfw-user-type-qty .plus, .wps-etmfw-user-type-qty .minus', function() {
+			var $wrapper = jQuery(this).closest('.wps-etmfw-user-type-qty');
+			var $input = $wrapper.find('input.qty');
+			var current = parseInt($input.val(), 10);
+			if (isNaN(current)) {
+				current = 0;
+			}
+			if (jQuery(this).hasClass('plus')) {
+				$input.val(current + 1).trigger('change');
+			} else {
+				$input.val(Math.max(0, current - 1)).trigger('change');
+			}
+		});
+		 
+   		window.wpsEtmfwCopyToClipboard = function(text) {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).then(function () {
+                    alert('Copied to clipboard!');
+                }).catch(function (err) {
+                    console.error('Clipboard error:', err);
+                });
+            } else {
+                const textarea = document.createElement("textarea");
+                textarea.value = text;
+                textarea.style.position = "fixed";
+                document.body.appendChild(textarea);
+                textarea.focus();
+                textarea.select();
+ 
+                try {
+                    document.execCommand('copy');
+                    alert('Copied to clipboard!');
+                } catch (err) {
+                    console.error('Fallback copy failed:', err);
+                }
+ 
+                document.body.removeChild(textarea);
+            }
+        };
 
 		jQuery(document).on('click','.wps-etmfw_mdisant-trans',function(){
 			jQuery('.wps-etmfw_mdisan-item').removeClass('wps-etmfw_mdisan-item--active');
